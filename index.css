@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    font-family: Bebas Neue;
+}
+footer{
+    padding: 10px;
+    background-color: red;
+    color:white
+}
+.seccion-datos{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+h2{
+    margin: 25px;
+}
+p{
+    margin: 25px;
+}
+#imagen-datos{
+    width: 100%;
+}
+a{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.seccion-banner{
+    background-image: url("https://wallpapercave.com/wp/wp9953987.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 300px;
+}
+.seccion-destacados{
+    display: grid;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.caja-destacada{
+    padding: 5px;
+    text-align: center;
+}
+.caja-destacada:hover{
+    font-style: italic;
+    background-color: brown;
+}
