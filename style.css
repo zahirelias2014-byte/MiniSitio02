@@ -27,9 +27,11 @@ footer{
 }
 h2{
     margin: 25px;
+    font-family: Bebas Neue;
 }
 p{
     margin: 25px;
+    font-family: Merriweather;
 }
 #imagen-datos{
     width: 100%;
@@ -41,6 +43,7 @@ a{
     margin: 25px;
     border-radius: 15px;
     text-decoration: none;
+    font-family: bebas Neue;
 }
 .seccion-banner{
     background-image: url("https://wallpapercave.com/wp/wp9953987.jpg");
@@ -64,4 +67,10 @@ a{
 .caja-destacada:hover{
     font-style: italic;
     background-color: brown;
+}
+h1{
+    font-family:Bebas Neue ;
+}
+h3{
+    font-family: bebas Neue;
 }
